@@ -1,2 +1,2 @@
 # VAEVQ
-[AAAI'26] The official code implementation for paper "VAEVQ:EnhancingDiscreteVisualTokenizationthroughVariationalModeling"
+[AAAI'26 Oral] The official code implementation for paper "VAEVQ:EnhancingDiscreteVisualTokenizationthroughVariationalModeling"
