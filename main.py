@@ -58,15 +58,15 @@ class DataModuleFromConfig(L.LightningDataModule):
     def _train_dataloader(self):
         mypath = '/data02/imagenet/train'
         # mypath ='/data02/imagenet/val'
-        dataloader = load_data(dataset_path=mypath,image_size=64,batch_size=4,state=True,num_workers=self.num_workers, pin_memory=True)
+        dataloader = load_data(dataset_path=mypath,image_size=256,batch_size=64,state=True,num_workers=self.num_workers, pin_memory=True)
         return dataloader
     def _val_dataloader(self):
         mypath ='/data02/imagenet/val'
-        dataloader = load_data(dataset_path=mypath,image_size=64,batch_size=4,state=False,num_workers=self.num_workers, pin_memory=True)
+        dataloader = load_data(dataset_path=mypath,image_size=256,batch_size=64,state=False,num_workers=self.num_workers, pin_memory=True)
         return dataloader
     def _test_dataloader(self):
         mypath = '/data02/imagenet/val'
-        dataloader = load_data(dataset_path=mypath,image_size=64,batch_size=4,state=False,num_workers=self.num_workers, pin_memory=True)
+        dataloader = load_data(dataset_path=mypath,image_size=256,batch_size=64,state=False,num_workers=self.num_workers, pin_memory=True)
         return dataloader
    
 def main():
