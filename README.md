@@ -1,12 +1,9 @@
 # VAEVQ: Enhancing Discrete Visual Tokenization through Variational Modeling
 
-We have been extremely busy recently, and the code will be updated after things settle down.
-
-If you have any questions, feel free to contact syang671@connect.hkust-gz.edu.cn 
-
 <h5 align="center">
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2411.02038-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2511.06863)
+[![arXiv](https://img.shields.io/badge/Arxiv-2511.06863-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2511.06863)
+
 
 </h5>
 
