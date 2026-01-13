@@ -22,7 +22,7 @@ trainer:
     class_path: lightning.pytorch.loggers.TensorBoardLogger
     init_args:
       save_dir: "vq_log/imagenet_vaevq" #Please specify your own path
-      version: "size128"
+      version: "size256"
       name:
 
 model:
